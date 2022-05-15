@@ -81,6 +81,14 @@ Streamwall in its default settings needs enough screen space to display a 1920x1
 npm start -- --window.width=1024 --window.height=768
 ```
 
+### Grid Size Adjustment
+
+By default, Streamwall utilizes a 3x3 grid size for displaying video tiles. However, Streamwall users can also specify a custom grid size by invoking the `--grid-count` option at launch:
+
+```
+npm start -- --grid.count="4"
+```
+
 ## Credits
 
 SVG Icons are from Font Awesome by Dave Gandy - http://fontawesome.io
